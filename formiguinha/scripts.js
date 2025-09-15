@@ -57,7 +57,7 @@ const frases = [
    "E foi assim que nasceu esse cantinho só pra ti.",
    "Um site feito de lembranças, zoeiras e umas coisinhas, pra talvez tu entenda melhor minha cabeça.",
    "Ja que tu sabe...",
-     "Que tu vive nela..",
+   "Que tu vive nela..",
    "Clique em Continuar"
 ];
 
@@ -372,6 +372,7 @@ function carregarCartinhas(){
     cartasFull.appendChild(div);
   });
 }
+
 
 
 
