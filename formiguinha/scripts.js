@@ -43,9 +43,24 @@ let saudacao = (hora>=5 && hora<12) ? "Bom dia gatinha" :
 
 const frases = [
   saudacao,
-  "Fiz esse site pra ti, espero que goste 💖",
-  "Clique em Continuar para ver as surpresinhas…"
+  [
+   "Já te chamei de tanta coisa, né?",
+   "Senhorita Esla Santos🐜...",
+   "Rabudinha...",
+   "Formiguinha🐜...",
+   "Deusa do Egito...",
+   "Razão das minhas noites sem sono...",
+   "A maçã mais bela do meu jardim proibido...",
+   "São tantos nomes que já perdi a conta...",
+   "Mas nenhum deles chega perto do que tu realmente significa.",
+   "Então pensei: como te mostrar isso de um jeito diferente?",
+   "E foi assim que nasceu esse cantinho só pra ti.",
+   "Um site feito de lembranças, zoeiras e umas coisinhas, pra talvez tu entenda melhor minha cabeça.",
+   "Ja que tu sabe...",
+     "Que tu vive nela..",
+   "Clique em Continuar"
 ];
+
 
 function typeWriter() {
   if(typingIndex < frases[fraseIndex].length){
@@ -357,5 +372,6 @@ function carregarCartinhas(){
     cartasFull.appendChild(div);
   });
 }
+
 
 
