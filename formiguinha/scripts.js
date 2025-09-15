@@ -43,7 +43,6 @@ let saudacao = (hora>=5 && hora<12) ? "Bom dia gatinha" :
 
 const frases = [
   saudacao,
-  [
    "Já te chamei de tanta coisa, né?",
    "Senhorita Esla Santos🐜...",
    "Rabudinha...",
@@ -372,6 +371,7 @@ function carregarCartinhas(){
     cartasFull.appendChild(div);
   });
 }
+
 
 
 
